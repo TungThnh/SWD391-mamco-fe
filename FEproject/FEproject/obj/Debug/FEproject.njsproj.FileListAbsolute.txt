@@ -1,0 +1,3 @@
+C:\Users\Vaio\source\repos\FEproject\FEproject\obj\Debug\FEproject.njsproj.AssemblyReference.cache
+C:\Users\Vaio\source\repos\FEproject\FEproject\obj\Debug\FEproject.njsproj.CoreCompileInputs.cache
+C:\Users\Vaio\source\repos\FEproject\FEproject\bin\Microsoft.NodejsTools.WebRole.dll
