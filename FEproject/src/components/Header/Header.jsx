@@ -40,10 +40,10 @@ const nav_links = [
 		display: 'Nguyên liệu'
 	},
 
-	{
-		path: '#partner',
-		display: 'Đối tác'
-	},
+	// {
+	// 	path: '#partner',
+	// 	display: 'Đối tác'
+	// },
 
 	{
 		path: '#formula',
@@ -63,7 +63,7 @@ const Header = ({ theme, toggleTheme }) => {
 
 					<div className="search">
 						<input type="text" placeholder="Món ăn" />
-						<button className="secondary_btn search_btn">Tìm</button>
+						<button className="primary_btn search_btn">Tìm</button>
 					</div>
 
 					{/*  ========= navigation ===========	*/}
@@ -82,17 +82,19 @@ const Header = ({ theme, toggleTheme }) => {
 					</div>
 
 					{/*  ====================== light mode ================	*/}
-
+					<div className="cart">
+					<i class="ri-shopping-cart-line"></i>
+					</div>
 					<div className="light_mode">
 						<span onClick={toggleTheme}>
 							{
 								theme === "light-theme" ? (
 									<span>
-										<i class="ri-moon-line"></i>Dark
+										<i class="ri-sun-line"></i>Light
 									</span>
 								) : (
 									<span>
-										<i class="ri-sun-line"></i> Light 
+										<i class="ri-moon-line"></i> Dark
 									</span>
 							)}
 						</span>

@@ -1,5 +1,7 @@
 .footer{
-    padding: 60px 0px;
+    padding:  0px;
+    
+    
 }
 
 .footer_wrapper{
@@ -9,7 +11,7 @@
 }
 
 .footer_logo{
-    width: 40%;
+    width: 10%;
 }
 
 .footer_quick-links{
@@ -51,7 +53,7 @@
 }
 
 .copyright{
-    color: rgba(255,255,255,0.573);
+    color: #555;
     margin-top: 30px;
     text-align: center;
     font-size: .9rem;
